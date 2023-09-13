@@ -1,0 +1,41 @@
+    <html>
+        <head>
+
+    <style >  
+body{
+background:url('img/player2.jpg');
+background-size:cover;
+padding:0px;     
+}
+input[type=submit]{
+border-radius:20px;
+font-size:20px;  
+font-weight:bold;
+font-style:italic;
+cursor:pointer;
+}
+input[type=submit]:hover{
+color:white;
+background:black;
+} 
+input[type=text]{
+border:1px solid black;
+border-radius:20px;
+padding:15px;
+} 
+</style> 
+            <title>DELETE PLAYER</title>
+                </head>
+        <body> 
+            <button><a href="admin1st.html">Back</a></button>
+            <div style="margin-top:225px;" >
+            <form action="delete_player.php" method="post"><table><tr align="center">
+                <p style="text-align: center;font-size: 25;color:black;font-weight:bold;">Enter Player Name :
+                    <input type="text" name="playername" style="width: 300;height: 25;" required>
+                <br><br>
+                <input type="submit" style="float:center;" value="Submit"><button style="float:right;" ><a href="admin.html">Logout</a></button>
+                </p></tr></table>
+             </form>
+         </div>
+       </body>
+    </html>
